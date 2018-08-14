@@ -11,10 +11,10 @@ const int localPort = 10000;
 #include <SPI.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
-#include "WaveAnimation.h"
+//#include "WaveAnimation.h"
 #include "Map.h"
 #include "BlockImage.h"
-//#include "WalkAnimation.h"
+#include "WalkAnimation.h"
 #include "PushAnimation.h"
 #include "StageChangeAnimation.h"
 #include "StageLogo.h"
