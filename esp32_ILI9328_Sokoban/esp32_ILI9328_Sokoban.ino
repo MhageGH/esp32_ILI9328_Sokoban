@@ -14,7 +14,7 @@ const int localPort = 10000;
 #include "WaveAnimation.h"
 #include "Map.h"
 #include "BlockImage.h"
-#include "WalkAnimation.h"
+//#include "WalkAnimation.h"
 #include "PushAnimation.h"
 #include "StageChangeAnimation.h"
 #include "StageLogo.h"
@@ -192,13 +192,13 @@ void ShowThankYou() {
     for (int j = 0; j < 320; ++j) buf[j] = thankYouLogo[i][j];
     tft.fillImage(buf, 0 , 20 + i, 320, 1);
   }
-  for (int k = 0; k < 18; ++k) {
-    for (int i = 0; i < 100; ++i) {
-      for (int j = 0; j < 100; ++j) buf[j] = waveAnimation[k][i][j];
-        tft.fillImage(buf, 110 , 100 + i, 100, 1);
-    }
-    delay(20);
-  }
+//  for (int k = 0; k < 18; ++k) {
+//    for (int i = 0; i < 100; ++i) {
+//      for (int j = 0; j < 100; ++j) buf[j] = waveAnimation[k][i][j];
+//        tft.fillImage(buf, 110 , 100 + i, 100, 1);
+//    }
+//    delay(20);
+//  }
 }
 
 void setup() {
